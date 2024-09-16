@@ -1,3 +1,4 @@
+import math.sqrt
 def add(x, y):
     """Addition"""
     return x + y
@@ -12,3 +13,5 @@ def divide(x, y):
     if y == 0:
         raise ValueError("Cannot divide by zero!")
     return x / y
+def sq_root(x):
+    return math.sqrt(x)
